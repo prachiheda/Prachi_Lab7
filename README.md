@@ -7,6 +7,16 @@ I would fit them within a Github action that runs whenever code is pushed, becau
 
 No. 
 
+3. What is the difference between navigation and snapshot mode?
+
+Navigation mode analyzes performance right after the page loads, so it also takes into account page load performance. On the other hand, snapshot mode analyzes performance at the current state of the page, which is not necessarily right after page load. 
+
+4. Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+
+- add a `<meta name="viewport">` tag with width or initial-scale
+- serve images in next gen formats
+- Size images according to display size
+   
 
 
 
